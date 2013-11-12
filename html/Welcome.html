@@ -1,0 +1,48 @@
+<div id="myCarousel" class="carousel slide" >
+
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item"><img src="img/banner1.jpg"></div>
+    <div class="item"><img src="img/banner2.jpg"></div>
+    <div class="item"><img src="img/banner3.jpg"></div>
+    <div class="item"><img src="img/banner4.jpg"> </div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
+</div>
+
+<hr>
+
+<div>
+
+    <h4><p class="text-center">Welcome</p></h4>
+
+    <p class="text-left">NCS is leading Product Development, Custom Software Development and IT resourcing company. We have expertise in product automation and providing integrated using Open Source Technologies.</p>
+
+    <p class="text-left">NCS believes in collaborating with Companies to become their strong technical arm and make them free from technology.</p>
+
+    <p class="text-left">Our experts take care of technologies, automation, performance, and business process flow that makes you free to focus on your Core Business and its growth.</p>
+
+    <p class="text-left">IT has been having profound impact on business models and industries since the last few decades. Now, more than ever, business leaders recognize the need to reduce costs and increase business value through the IT strategies that enables continuing stability and growth.</p>
+
+    <p class="text-left">Our right mix of people and engineering make a winning IT path that maximizes business investments, aligns technology with business processes, and facilitates you to compete with fast market changes.</p>
+
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.carousel').carousel({
+            interval: 3000
+        });
+
+        $('.carousel').carousel('cycle');
+    });
+</script>   
